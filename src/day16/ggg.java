@@ -9,9 +9,9 @@ public class ggg {
 		 Scanner scan = new Scanner(System.in);
 		    String word = scan.next();
 		    //WRITE YOUR CODE HERE
-		    String aysel =scan.nextLine();
+		   scan.nextLine();
 		    
-		    System.out.println(aysel.indexOf(0)+aysel.lastIndexOf(0));
+		  //  System.out.println(firstIndexOf(0)+lastIndexOf(0));
 		    
 		    
 	}
