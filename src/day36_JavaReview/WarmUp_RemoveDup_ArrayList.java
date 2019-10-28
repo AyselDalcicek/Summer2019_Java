@@ -1,4 +1,4 @@
-package day36;
+package day36_JavaReview;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,7 +30,7 @@ public class WarmUp_RemoveDup_ArrayList {
 		
 		
 		//Task02:
-		String[] names = {"Aysel", "Aysel", "Bera", "Zeynep", "Kadir", "Zeynep", "Zeynep",};
+		String[] names = {"Aysel", "Aysel", "Bera", "Zeynep", "Kadir", "Zeynep", "Zeynep"};
 		ArrayList<String> list3 = new ArrayList<>( Arrays.asList( names ) );
 		
 		        // OR
@@ -42,7 +42,24 @@ public class WarmUp_RemoveDup_ArrayList {
 		list3=RemoveDup2(list3);
 		System.out.println(list3);  // [Aysel, Bera, Zeynep, Kadir]
 		
+					//Task03:
+					Character[] letters = {'A','A','C','C','C','b','b','a','a','Y'};
+					ArrayList<Character> list4 = new ArrayList<>(Arrays.asList(letters) );
+					System.out.println(list4);  // [A, A, C, C, C, b, b, a, a, Y]
+					
+					list4=RemoveDup3(list4);
+					System.out.println(list4);  // [A, C, b, a, Y]
 		
+					
+		//Task04:	
+		Double[] num = {1.4, 1.4, 1.4, 1.4, 4.0, 6.7, 3.0, 3.0, 3.0} ;
+		ArrayList<Double> list5 = new ArrayList<>( Arrays.asList(num) );
+		
+   // OR ArrayList<Double> list5 = new ArrayList<>(Arrays.asList(1.4, 1.4, 1.4, 1.4, 4.0, 6.7, 3.0, 3.0, 3.0));
+	
+		list5=RemoveDup4(list5);
+		System.out.println(list5);
+					
 		
 	}
 	//Task01:
@@ -77,6 +94,33 @@ public class WarmUp_RemoveDup_ArrayList {
         return result;
     }
 	
-	// solve other tasks
+	
+	// task03:
+	public static ArrayList<Character> RemoveDup3 ( ArrayList<Character> list){
+		ArrayList<Character> result = new ArrayList<>();
+		
+		for(int i =0; i<list.size(); i++){
+			if( ! result.contains(list.get(i) )){
+				result.add(list.get(i));
+			}
+		}
+		return result;
+	}
+	
+	// task04:
+	public static ArrayList<Double> RemoveDup4 (ArrayList<Double> list){
+		ArrayList<Double> result = new ArrayList<>();
+		
+		 for(int i =0; i<list.size(); i++) {
+			 if( ! list.contains(list.get(i)) ) {
+				 result.add(list.get(i));
+			 }
+		 }
+		
+		return result;
+		
+	}
+	
+
 	
 }

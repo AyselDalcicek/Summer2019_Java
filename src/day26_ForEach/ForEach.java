@@ -22,9 +22,10 @@ public class ForEach {
 	
 	
 	System.out.println("===================");
-	
+	 int count=0;
 	for(int  each :  arr) {
-		System.out.print(each);  // 12345
+		count+=each;
+		System.out.print(count+" ");  // 12345
 	}
 	System.out.println();
 	

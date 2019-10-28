@@ -1,4 +1,4 @@
-package day36;
+package day36_JavaReview;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -56,7 +56,7 @@ public class ArrayListReview {
         // clear(): removes all object from arrayList, size will be 0
         
         list.clear();
-        System.out.println(list); // []  // if we do  ot write clear method [10, 30, 20, 50]
+        System.out.println(list); // []  // if we do  not write clear method [10, 30, 20, 50]
         
 System.out.println("-----------------------------");
 
@@ -95,7 +95,7 @@ System.out.println("-----------------------------");
             System.out.println(students.equals(students2)); // true
         
             
-        // Contains(Object): checks if the given object is conatined in the arraylist or not, and returns boolean expression
+        // Contains(Object): checks if the given object is contained in the arrayList or not, and returns boolean expression
             
             System.out.println(students);  // [Holly, Homayra, Rahwa, Arzu, Ali, Rahwa]
             
