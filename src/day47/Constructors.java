@@ -20,7 +20,7 @@ package day47;
 	class Viktoria extends Resul {
 		
 		public Viktoria() {
-			super();
+			//super();
 			System.out.println("Viktoria");
 		}
 		

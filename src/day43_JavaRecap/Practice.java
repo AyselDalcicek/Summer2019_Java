@@ -10,9 +10,8 @@ public class Practice {
 		staticKeyword.printName();  // Nurzat
 		// static methods can be called through the class name	
 		
-		
-		// staticKeyword.printName2(); 
-			//instance method cannot called through the class name
+			// staticKeyword.printName2(); 
+				//instance method cannot called through the class name
 		
 		Practice.printName(); //Semra
 		
