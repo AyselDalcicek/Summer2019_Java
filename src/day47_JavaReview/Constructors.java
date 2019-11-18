@@ -1,4 +1,4 @@
-package day47;
+package day47_JavaReview;
 	
 	class Mehmet{
 		

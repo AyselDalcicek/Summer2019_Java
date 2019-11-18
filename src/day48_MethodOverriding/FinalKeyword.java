@@ -2,7 +2,7 @@ package day48_MethodOverriding;
 
 class Credentials{
 	
-	private final String UserName = "cybertek";
+	private final String UserName ="cybertek";
 	private final String PassWord = "Batch12";
 	
 	

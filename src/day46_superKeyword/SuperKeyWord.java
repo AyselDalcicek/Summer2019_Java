@@ -15,7 +15,6 @@ class A {
 	
 }
 
-
 public class SuperKeyWord extends A {
 		//      sub               super
 	
@@ -33,6 +32,7 @@ public class SuperKeyWord extends A {
 		this.name = "Ihsan";
 		super.methodA();
 		this.methodA();
+		
 	}
 	
     
