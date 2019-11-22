@@ -26,12 +26,12 @@ public interface InterfaceIntro {
 	}
 	
 	
-	 int a =100;  // public static final  (given by default)
+	 int a =100;  // public static final
 	 
 	 public static final int b = 200;
 		
-		// public  protected int num =100;  // access modifier public by default
-	 										// we can not give other than public acccess mod.
+		// public  protected int num =100;
+	
 	public static void main(String[] args) {
 		
 		InterfaceIntro.mm();
@@ -41,9 +41,6 @@ public interface InterfaceIntro {
 		
 		
 	}
-	
-	
-	
 	
 	
 
@@ -78,4 +75,6 @@ class D{
 		a = 500;
 	}
 	
+	
 }
+
