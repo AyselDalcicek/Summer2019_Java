@@ -18,7 +18,6 @@ public interface Cars {
 	                    implement Cars and GasVehicles Interfaces
 	            3. ToyotaHybird:
 	                    implement Cars, GasVehicles, and  ElectricVehicles Interfaces
-		Collapse
 
 
 	 */

@@ -1,9 +1,18 @@
 package day51_Abstraction;
 
 abstract class Test{
-    
+	
     public Test(){
         
+    }
+    
+    static {
+    	
+    	{
+    		
+    		
+    	}
+    	
     }
     
     abstract void m();
@@ -17,7 +26,7 @@ abstract class Test{
 }
 public class Practice extends Test{
     
-    // abstract void m();
+    //  void m();
     
     @Override
     void m() {

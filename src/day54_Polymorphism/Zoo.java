@@ -11,7 +11,7 @@ package day54_Polymorphism;
 	        override super class' instance method Talk()
 	    create a class called Zoo:
 	            Create Arrays of Tiger
-	            Create Arrays of Octopu
+	            Create Arrays of Octopus
 	*/
 	
 class Animal{

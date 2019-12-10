@@ -43,6 +43,9 @@ public interface InterfaceIntro {
 	}
 	
 	
+	
+	
+	
 
 }
 
@@ -61,8 +64,6 @@ class Test implements InterfaceIntro, Data{
 	
 	
 }
-
-
 
 
 // class B extends A, Test{  }  a class can only extend one class

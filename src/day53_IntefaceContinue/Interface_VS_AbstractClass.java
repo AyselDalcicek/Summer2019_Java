@@ -42,16 +42,12 @@ package day53_IntefaceContinue;
 	    // Interface_VS_AbstractClass  obj = new Interface_VS_AbstractClass();
 	        //  interface is not class.  
 	        //  abstraction is not concrete, but object HAS to be concrete
-	        
-	        
-	        
-	        
-	    }
-	    
-	    
-	    
+	                
+	    }  
 	}
+	
 	class Test implements Interface_VS_AbstractClass {
+		
 	    @Override
 	    public void method1() {
 	        // TODO Auto-generated method stub

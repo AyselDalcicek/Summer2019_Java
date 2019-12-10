@@ -17,8 +17,8 @@ abstract class ScrumTeam{
                         Actions: FindBug
                 2. Developers:
                         Actions: FixBug
-    3. Create a class called BOF
-            create Array of Testers named sdets, at leats store two objects
+    3. Create a class called BOA
+            create Array of Testers named sdets, at least store two objects
             create array of Developers named dev, at least store three objects
             create ArrayList of ScrumTeam:
                     store all the developer' and testers' objects
@@ -104,7 +104,6 @@ public class BOA {
             each.getEmployeeInfo();
         }
         */
-        
         
         ArrayList<ScrumTeam> scrum = new ArrayList<>();
         scrum.addAll(  Arrays.asList(testers) );

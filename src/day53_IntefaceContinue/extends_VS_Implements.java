@@ -11,7 +11,7 @@ public interface extends_VS_Implements extends  B {
     void method1();  // public
     void method2(); // public
     
- // void method3();
+  // void method3();
     
     // public void method3() { }
     
@@ -25,11 +25,13 @@ class A  implements extends_VS_Implements{
     public void method2() {
         
     }
+    
     public void method3() {
         
-    }
+    }   
     
 }
+
 class C extends A implements extends_VS_Implements {
     
     
