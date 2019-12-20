@@ -23,7 +23,7 @@ public class ListInterface {
                 arraylist.add(30);
                 arraylist.remove(1);
                 
-        System.out.println(arraylist);
+               System.out.println(arraylist);  // [10, 30]
                 
     
         LinkedList<Integer> linkedlist = new LinkedList<>();
@@ -32,7 +32,7 @@ public class ListInterface {
                     linkedlist.add(30);
                     linkedlist.remove(1);
                     
-            System.out.println(linkedlist);
+            System.out.println(linkedlist);   // [10, 30]
         
         System.out.println("============================");
         
@@ -42,28 +42,35 @@ public class ListInterface {
         
     List<String> linked = new LinkedList<>(Arrays.asList(arr));
         
-        System.out.println(linked);
+        System.out.println(linked);  //[A, B, B]
+        
+        
+        System.out.println(NotLinked);   //[A, B, B]
+        
+        
         
         
         Vector<Integer> vt = new Vector<Integer>();
                 vt.add(1);
+                vt.add(2);
         
-        
+                System.out.println(vt);  //[1]
                 
 System.out.println("============================");   
+
         Stack<Integer> st =new Stack<Integer>();
             st.add(1);
             st.add(2);
             st.add(3);
             st.add(4);
-            System.out.println(st);
+            System.out.println(st);  //[1, 2, 3, 4]
             
-            System.out.println( st.pop() );  // LIFO
+            System.out.println( st.pop() );  // LIFO  // 4
         
-            System.out.println(st); 
+            System.out.println(st); //[1, 2, 3]
             
-            System.out.println( st.pop() ); 
-            System.out.println(st);
+            System.out.println( st.pop() ); // 3
+            System.out.println(st);   //[1, 2]
         
     }
     
