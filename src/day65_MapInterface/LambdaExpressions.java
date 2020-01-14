@@ -19,7 +19,7 @@ public class LambdaExpressions {
  List<Integer> list2 = new ArrayList<>(Arrays.asList(100, 200, 300, 400, 500, 600));
  list2.removeIf( Erhan -> Erhan > 300);
  
- System.out.println(list2);
+ System.out.println(list2);  // [100, 200, 300]
  
  //foreEach()
  List<Integer> list3 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
